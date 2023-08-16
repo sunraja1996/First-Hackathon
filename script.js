@@ -19,7 +19,7 @@ function displayProducts(productsData) {
 
     card.innerHTML = `
       <h1 class="name">${product.name}</h1>
-      <h3 class="brand">${product.brand}</h3>
+      <h3 class="brand">Brand : ${product.brand}</h3>
       <img src="${product.image_link}" class="images" />
       <h3 class="price"><span>${product.price_sign}</span>${product.price}</h3>
       <p class="description">${product.description}</p>
@@ -54,7 +54,7 @@ function displayallProducts(productsData) {
 
     card.innerHTML = `
       <h1 class="name">${product.name}</h1>
-      <h3 class="brand">${product.brand}</h3>
+      <h3 class="brand">Brand : ${product.brand}</h3>
       <img src="${product.image_link}" class="images" />
       <h3 class="price"><span>${product.price_sign}</span>${product.price}</h3>
       <p class="description">${product.description}</p>
